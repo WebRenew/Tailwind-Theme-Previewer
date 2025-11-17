@@ -2,7 +2,7 @@
 
 A powerful, interactive tool for designing, previewing, and exporting custom Tailwind CSS themes in real-time. Test your color schemes, typography, and design tokens across realistic UI components before implementing them in your projects.
 
-![Tailwind Theme Previewer](# Tailwind Theme Previewer
+![Tailwind Theme Previewer](public/Tailwind_Theme_Previewer.png)
 
 A powerful, interactive tool for designing, previewing, and exporting custom Tailwind CSS themes in real-time. Test your color schemes, typography, and design tokens across realistic UI components before implementing them in your projects.
 
@@ -40,9 +40,9 @@ A powerful, interactive tool for designing, previewing, and exporting custom Tai
 
 ### Installation
 
-```bash
+\`\`\`bash
 # Clone the repository
-git clone https://github.com/yourusername/tailwind-theme-previewer.git
+git clone https://github.com/WebRenew/Tailwind-Theme-Previewer.git
 
 # Navigate to the project directory
 cd tailwind-theme-previewer
@@ -52,7 +52,7 @@ npm install
 
 # Start the development server
 npm run dev
-```
+\`\`\`
 
 The application will be available at `http://localhost:3000`
 
@@ -83,7 +83,7 @@ Enable YOLO Mode for random theme generation:
 
 Example export:
 
-```javascript
+\`\`\`javascript
 module.exports = {
   theme: {
     extend: {
@@ -101,7 +101,7 @@ module.exports = {
     }
   }
 }
-```
+\`\`\`
 
 ## 🎨 Configuration
 
@@ -118,7 +118,7 @@ Edit the preview components in `/src/components/preview/` to match your typical 
 
 Create new theme presets in `/src/themes/`:
 
-```typescript
+\`\`\`typescript
 export const myCustomTheme = {
   name: 'My Custom Theme',
   colors: {
@@ -129,7 +129,7 @@ export const myCustomTheme = {
     // ... typography settings
   }
 }
-```
+\`\`\`
 
 ## 🛠️ Tech Stack
 
@@ -142,7 +142,7 @@ export const myCustomTheme = {
 
 ## 📁 Project Structure
 
-```
+\`\`\`
 tailwind-theme-previewer/
 ├── src/
 │   ├── app/              # Next.js app directory
@@ -155,7 +155,7 @@ tailwind-theme-previewer/
 │   └── types/            # TypeScript types
 ├── public/               # Static assets
 └── tailwind.config.js    # Tailwind configuration
-```
+\`\`\`
 
 ## 🤝 Contributing
 
@@ -245,7 +245,7 @@ For questions, suggestions, or issues:
 
 ### Installation
 
-```bash
+\`\`\`bash
 # Clone the repository
 git clone https://github.com/yourusername/tailwind-theme-previewer.git
 
@@ -257,7 +257,7 @@ npm install
 
 # Start the development server
 npm run dev
-```
+\`\`\`
 
 The application will be available at `http://localhost:3000`
 
@@ -288,7 +288,7 @@ Enable YOLO Mode for random theme generation:
 
 Example export:
 
-```javascript
+\`\`\`javascript
 module.exports = {
   theme: {
     extend: {
@@ -306,7 +306,7 @@ module.exports = {
     }
   }
 }
-```
+\`\`\`
 
 ## 🎨 Configuration
 
@@ -323,7 +323,7 @@ Edit the preview components in `/src/components/preview/` to match your typical 
 
 Create new theme presets in `/src/themes/`:
 
-```typescript
+\`\`\`typescript
 export const myCustomTheme = {
   name: 'My Custom Theme',
   colors: {
@@ -334,7 +334,7 @@ export const myCustomTheme = {
     // ... typography settings
   }
 }
-```
+\`\`\`
 
 ## 🛠️ Tech Stack
 
@@ -347,7 +347,7 @@ export const myCustomTheme = {
 
 ## 📁 Project Structure
 
-```
+\`\`\`
 tailwind-theme-previewer/
 ├── src/
 │   ├── app/              # Next.js app directory
@@ -360,7 +360,7 @@ tailwind-theme-previewer/
 │   └── types/            # TypeScript types
 ├── public/               # Static assets
 └── tailwind.config.js    # Tailwind configuration
-```
+\`\`\`
 
 ## 🤝 Contributing
 
@@ -403,40 +403,15 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 - Tailwind CSS team for the amazing framework
 - The open-source community for inspiration and contributions
-- All contributors who have helped improve this tool
+- v0 for the support
 
 ## 📧 Contact
 
 For questions, suggestions, or issues:
 - Open an issue on GitHub
-- Email: your-email@example.com
-- Twitter: @yourusername
-
+- Twitter: @Webrenew_
 ---
 
-**Built with ❤️ by developers, for developers**
+**Built with ❤️ by developers, for developers on v0.**
 
 ⭐ Star this repo if you find it helpful!
-
-
-
-
-Made by
-
-██╗    ██╗███████╗██████╗ ██████╗ ███████╗███╗   ██╗███████╗██╗    ██╗
-██║    ██║██╔════╝██╔══██╗██╔══██╗██╔════╝████╗  ██║██╔════╝██║    ██║
-██║ █╗ ██║█████╗  ██████╔╝██████╔╝█████╗  ██╔██╗ ██║█████╗  ██║ █╗ ██║
-██║███╗██║██╔══╝  ██╔══██╗██╔══██╗██╔══╝  ██║╚██╗██║██╔══╝  ██║███╗██║
-╚███╔███╔╝███████╗██████╔╝██║  ██║███████╗██║ ╚████║███████╗╚███╔███╔╝
- ╚══╝╚══╝ ╚══════╝╚═════╝ ╚═╝  ╚═╝╚══════╝╚═╝  ╚═══╝╚══════╝ ╚══╝╚══╝ 
-
-on
-
-             /$$$$$$ 
-            /$$$_  $$
- /$$    /$$| $$$$\ $$
-|  $$  /$$/| $$ $$ $$
- \  $$/$$/ | $$\ $$$$
-  \  $$$/  | $$ \ $$$
-   \  $/   |  $$$$$$/
-    \_/     \______/
