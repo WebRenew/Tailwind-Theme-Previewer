@@ -202,7 +202,7 @@ MIT License - feel free to use this project for personal or commercial purposes.
 
 ## Acknowledgments
 
-- Built with Next.js 15 and Tailwind CSS v4  
+- Built with Next.js 16 and Tailwind CSS v4  
 - UI components from shadcn/ui  
 - Inspired by corporate cubicle culture and data-driven decision making  
 - Hero image: 3D isometric office cubicle render  
