@@ -187,7 +187,7 @@ module.exports = {
 
 ```css
 @theme inline {
-  --color-primary-500: #3b82f6;
+  --color-primary-500: 'oklch(62.31% 0.1880 259.81)',
   --font-heading: 'Geist';
 }
 ```
