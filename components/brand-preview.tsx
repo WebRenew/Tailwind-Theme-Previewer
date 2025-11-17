@@ -384,12 +384,12 @@ export function BrandPreview({ tokens }: BrandPreviewProps) {
                   
                   <div className="flex-1 flex items-end justify-center min-h-[200px] relative">
                     {/* Vertical grid lines behind bars */}
-                    <div className="absolute inset-0 flex items-end justify-center w-full max-w-2xl mx-auto">
-                      <div className="flex gap-3 w-full h-48 items-stretch">
+                    <div className="absolute inset-0 flex items-stretch justify-center w-full max-w-2xl mx-auto">
+                      <div className="flex gap-3 w-full h-full">
                         {[...Array(6)].map((_, i) => (
                           <div
                             key={i}
-                            className="flex-1 border-l border-dotted"
+                            className="flex-1 border-l border-dotted h-full"
                             style={{
                               borderColor: `${primaryShade600}4D`, // 30% opacity (hex 4D)
                             }}
@@ -700,6 +700,7 @@ export function BrandPreview({ tokens }: BrandPreviewProps) {
                       } : {
                         borderColor: primaryShade300,
                         color: primaryShade600,
+                        backgroundColor: 'transparent',
                         borderRadius: BORDER_RADIUS_MAP[materials.button.borderRadius],
                       }}
                     >
