@@ -650,7 +650,7 @@ export function BrandPreview({ tokens }: BrandPreviewProps) {
             
             <div className="grid gap-6 md:grid-cols-3">
               {[
-                { name: 'The Intern', price: '$299', features: ['Recycled cubicle walls', 'Motivational poster (1)', 'Complimentary fluorescent lighting', 'Email access'] },
+                { name: 'The Intern', price: '$299', features: ['Recycled cubicle walls', 'Motivational poster (1)', 'Complimentary fluorescent lighting', 'Email access', 'Fruit Snacks (limited 1 per week)'] },
                 { name: 'The Middle Manager', price: '$799', features: ['Corner cubicle (near window)', 'Ergonomic desk chair (refurbished)', 'White noise machine', 'Coffee maker access', 'Passive-aggressive sticky notes'], popular: true },
                 { name: 'The C-Suite', price: '$1,999', features: ['Premium particle board desk', 'Two monitors (both working)', 'Door with frosted glass', 'Unlimited meeting room bookings', 'Personalized nameplate'] },
               ].map((plan, index) => (

@@ -5,6 +5,7 @@ import { ThemeToggle } from '@/components/theme-toggle'
 import { BrandTokens, BrandColor, BorderRadius, FontSize, FontWeight, Shadow, TextTransform, LetterSpacing, LineHeight } from '@/types/brand'
 import { AnimatedEyes } from '@/components/animated-eyes'
 import { MobileControlsMenu } from '@/components/mobile-controls-menu'
+import { Github } from 'lucide-react'
 
 interface AppNavbarProps {
   tokens: BrandTokens
@@ -83,6 +84,15 @@ export function AppNavbar({
 
         <div className="hidden lg:flex items-center gap-2">
           <DesignTokensSheet tokens={tokens} selectedPalette={tokens.selectedPalette} onShockedTrigger={onShockedTrigger} />
+          <a
+            href="https://github.com/WebRenew/Tailwind-Theme-Previewer"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center justify-center rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 hover:bg-accent hover:text-accent-foreground h-9 w-9"
+            aria-label="View on GitHub"
+          >
+            <Github className="h-4 w-4" />
+          </a>
           <ThemeToggle />
         </div>
       </div>
