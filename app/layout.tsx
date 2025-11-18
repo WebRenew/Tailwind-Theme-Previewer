@@ -8,8 +8,8 @@ const _geist = Geist({ subsets: ["latin"] });
 const _geistMono = Geist_Mono({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: 'Brand Board in a Browser',
-  description: 'Create and explore visual brand directions with instant design token export',
+  title: 'Tailwind Theme Previewer',
+  description: 'A tool to create, preview, and export Tailwind themes.',
   generator: 'v0.app',
   icons: {
     icon: [
