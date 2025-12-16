@@ -48,7 +48,7 @@ Tailwind Theme Previewer is a Next.js application that lets you create, customiz
 
 ## Project Structure
 
-\`\`\`
+```
 tailwind-theme-previewer/
 ├── app/
 │   ├── layout.tsx              # Root layout with fonts and metadata
@@ -74,11 +74,11 @@ tailwind-theme-previewer/
 └── public/
     ├── cubicloud-hero.png      # 3D isometric cubicle office render
     └── Tailwind_Theme_Previewer.png
-\`\`\`
+```
 
 ## Installation
 
-\`\`\`bash
+```bash
 # Clone the repository
 git clone https://github.com/yourusername/tailwind-theme-previewer.git
 
@@ -90,7 +90,7 @@ npm install
 
 # Run the development server
 npm run dev
-\`\`\`
+```
 
 Open [http://localhost:3000](http://localhost:3000) to view the application.
 
@@ -155,16 +155,16 @@ The preview showcases a "Cubicle Metrics Dashboard" with tongue-in-cheek corpora
 ## Export Formats
 
 ### CSS Variables
-\`\`\`css
+```css
 :root {
   --color-primary-500: #3b82f6;
   --font-heading: 'Geist', sans-serif;
   --spacing-md: 1rem;
 }
-\`\`\`
+```
 
 ### Tailwind v3 Config
-\`\`\`js
+```js
 module.exports = {
   theme: {
     extend: {
@@ -174,15 +174,15 @@ module.exports = {
     }
   }
 }
-\`\`\`
+```
 
 ### Tailwind v4 Config
-\`\`\`css
+```css
 @theme inline {
   --color-primary-500: #3b82f6;
   --font-heading: 'Geist';
 }
-\`\`\`
+```
 
 ## Contributing
 
